@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nader Medical Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nader Medical Services</h1>
+        <p>Owned by: Nader Shehata Eissa</p>
+        <img src="my_photo.jpg" alt="Nader Shehata Eissa" class="profile-pic">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Home Care</li>
+            <li>Medical Consultation</li>
+            <li>Post-surgical Care</li>
+            <li>Emergency Care</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Nader Shehata Eissa, a specialist nurse with a Bachelor's degree in Nursing from Ain Shams University. Currently, I work as a Specialist Nurse at Ain Shams University Hospitals.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone: 01229273330</p>
+        <p>Email: <a href="mailto:nader_sh2003@yahoo.com">nader_sh2003@yahoo.com</a></p>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-item">
+            <img src="home_care.jpg" alt="Home Care">
+            <p>Home Care Services</p>
+        </div>
+        <div class="gallery-item">
+            <img src="medical_consultation.jpg" alt="Medical Consultation">
+            <p>Medical Consultation</p>
+        </div>
+        <div class="gallery-item">
+            <img src="post_surgical_care.jpg" alt="Post-surgical Care">
+            <p>Post-surgical Care</p>
+        </div>
+        <div class="gallery-item">
+            <img src="emergency_care.jpg" alt="Emergency Care">
+            <p>Emergency Care</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nader Medical Services. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
